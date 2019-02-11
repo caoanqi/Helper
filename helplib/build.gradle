@@ -42,7 +42,7 @@ def siteUrl = 'https://github.com/caoanqi/Helper' // 项目主页。
 def gitUrl = 'https://github.com/caoanqi/Helper.git' // Git仓库的url。
 
 group = "com.jerry.helper"// 唯一包名
-version = "1.0.0"//项目引用的版本号
+version = "1.0.1"//项目引用的版本号
 
 install {
     repositories.mavenInstaller {
@@ -118,7 +118,6 @@ bintray {
     pkg {
         repo = "helplib"  //Repository名字 需要自己在bintray网站上先添加
         name = "helplib"// 发布到Bintray上的项目名字，这里的名字不是compile 'com.ansen.library:circleimage:1.0
-        // .1'中的circleimage。
         userOrg = 'dayup00001'//Bintray的组织id
         websiteUrl = siteUrl
         vcsUrl = gitUrl
