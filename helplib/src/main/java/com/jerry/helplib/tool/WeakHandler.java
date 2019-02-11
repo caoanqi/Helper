@@ -19,10 +19,6 @@ import java.util.concurrent.locks.ReentrantLock;
  *
  * @see Handler
  * <p>
- * fileName:
- * fileDesc:
- * fileAuthor:曹幼林
- * fileFate:2018/9/25
  */
 @SuppressWarnings("unused")
 public class WeakHandler {
