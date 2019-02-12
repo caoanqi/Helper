@@ -24,6 +24,7 @@ android {
         }
     }
 
+
 }
 
 dependencies {
@@ -34,7 +35,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
-
 
 
 // 定义两个链接，下面会用到。
@@ -66,7 +66,7 @@ install {
                 //填写开发者基本信息，复制我的，这里需要修改。
                 developers {
                     developer {
-                        id '10' // 开发者的id。
+                        id 'caoanqi' // 开发者的id。
                         name 'caoanqi' // 开发者名字。
                         email 'loveyoulin@live.cn' // 开发者邮箱。
                     }

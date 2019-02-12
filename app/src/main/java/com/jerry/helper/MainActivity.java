@@ -1,13 +1,34 @@
 package com.jerry.helper;
 
+import android.content.Intent;
+import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.jerry.helper.databinding.ActivityMainBinding;
+import com.jerry.helper.voice.AndroidSelfPlayVoiceActivity;
+import com.jerry.helper.voice.BaiDuPlayVoiceActivity;
+
+/**
+ * @author Administrator
+ */
 public class MainActivity extends AppCompatActivity {
+
+    ActivityMainBinding activityMainBinding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+
+        initListener();
+    }
+
+    private void initListener() {
+        activityMainBinding.btAndroidSelfPlayVoice.setOnClickListener(v -> {
+            startActivity(new Intent().setClass(this, AndroidSelfPlayVoiceActivity.class));
+        });
+
+        activityMainBinding.btBaiduPlayVoice.setOnClickListener(v ->   startActivity(new Intent().setClass(this, BaiDuPlayVoiceActivity.class)));
     }
 }
