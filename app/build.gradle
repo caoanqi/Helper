@@ -13,6 +13,11 @@ android {
     dataBinding {
         enabled true
     }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -34,4 +39,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation project(':helplib')
     implementation files('libs/com.baidu.tts_2.3.2.20180713_6101c2a.jar')
+    implementation files('libs/Msc.jar')
 }
