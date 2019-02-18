@@ -1,4 +1,4 @@
-package com.jerry.helper.voice;
+package com.jerry.helper.view.voice;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -20,8 +20,8 @@ import com.baidu.tts.client.SpeechSynthesizer;
 import com.baidu.tts.client.SpeechSynthesizerListener;
 import com.baidu.tts.client.TtsMode;
 import com.jerry.helper.R;
-import com.jerry.helper.control.InitConfig;
-import com.jerry.helper.listener.UiMessageListener;
+import com.jerry.helper.view.voice.control.InitConfig;
+import com.jerry.helper.view.voice.listener.UiMessageListener;
 import com.jerry.helper.util.AutoCheck;
 
 import java.io.File;
@@ -57,6 +57,7 @@ public class BaiDuPlayVoiceActivity extends AppCompatActivity {
     private TtsMode ttsMode = TtsMode.MIX;
 
     // ================选择TtsMode.ONLINE  不需要设置以下参数; 选择TtsMode.MIX 需要设置下面2个离线资源文件的路径
+
     private static final String TEMP_DIR = "/sdcard/baiduTTS"; // 重要！请手动将assets目录下的3个dat 文件复制到该目录
 
     // 请确保该PATH下有这个文件

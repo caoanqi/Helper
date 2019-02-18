@@ -1,4 +1,4 @@
-package com.jerry.helper;
+package com.jerry.helper.view.voice;
 
 /**
  * Created by fujiayi on 2017/9/13.

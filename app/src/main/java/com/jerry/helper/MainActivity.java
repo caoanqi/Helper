@@ -6,10 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.jerry.helper.databinding.ActivityMainBinding;
-import com.jerry.helper.voice.AndroidSelfPlayVoiceActivity;
-import com.jerry.helper.voice.BaiDuPlayVoiceActivity;
-import com.jerry.helper.voice.SynthActivity;
-import com.jerry.helper.voice.XunFeiPlayVoiceActivity;
+import com.jerry.helper.view.voice.AndroidSelfPlayVoiceActivity;
+import com.jerry.helper.view.voice.SynthActivity;
+import com.jerry.helper.view.voice.XunFeiPlayVoiceActivity;
 
 /**
  * @author Administrator

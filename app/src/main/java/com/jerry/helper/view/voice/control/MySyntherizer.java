@@ -1,4 +1,4 @@
-package com.jerry.helper.control;
+package com.jerry.helper.view.voice.control;
 
 import android.content.Context;
 import android.os.Handler;
@@ -10,7 +10,7 @@ import com.baidu.tts.auth.AuthInfo;
 import com.baidu.tts.client.SpeechSynthesizeBag;
 import com.baidu.tts.client.SpeechSynthesizer;
 import com.baidu.tts.client.TtsMode;
-import com.jerry.helper.MainHandlerConstant;
+import com.jerry.helper.view.voice.MainHandlerConstant;
 
 import java.util.ArrayList;
 import java.util.List;

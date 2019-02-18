@@ -1,7 +1,7 @@
 /**
  * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
  */
-package com.jerry.helper.voice;
+package com.jerry.helper.view.voice;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -19,10 +19,10 @@ import com.baidu.tts.client.SpeechSynthesizer;
 import com.baidu.tts.client.SpeechSynthesizerListener;
 import com.baidu.tts.client.TtsMode;
 import com.jerry.helper.R;
-import com.jerry.helper.control.InitConfig;
-import com.jerry.helper.control.MySyntherizer;
-import com.jerry.helper.control.NonBlockSyntherizer;
-import com.jerry.helper.listener.UiMessageListener;
+import com.jerry.helper.view.voice.control.InitConfig;
+import com.jerry.helper.view.voice.control.MySyntherizer;
+import com.jerry.helper.view.voice.control.NonBlockSyntherizer;
+import com.jerry.helper.view.voice.listener.UiMessageListener;
 import com.jerry.helper.util.AutoCheck;
 import com.jerry.helper.util.OfflineResource;
 

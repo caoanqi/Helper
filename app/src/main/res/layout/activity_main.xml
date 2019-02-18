@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
 
-
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -10,6 +9,8 @@
         android:gravity="center_horizontal"
         android:orientation="vertical"
         tools:context=".MainActivity">
+
+
 
 
         <Button
@@ -31,6 +32,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="科大播放语音"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/bt_custom_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义view"
             android:textSize="18sp" />
 
     </LinearLayout>

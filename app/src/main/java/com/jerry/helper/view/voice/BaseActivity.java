@@ -1,4 +1,4 @@
-package com.jerry.helper.voice;
+package com.jerry.helper.view.voice;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -18,7 +18,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.jerry.helper.MainHandlerConstant;
 import com.jerry.helper.R;
 
 import java.util.ArrayList;

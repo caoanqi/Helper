@@ -1,4 +1,4 @@
-package com.jerry.helper.voice;
+package com.jerry.helper.view.voice;
 
 import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;

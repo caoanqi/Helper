@@ -1,9 +1,8 @@
-package com.jerry.helper.voice;
+package com.jerry.helper.view.voice;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;

@@ -9,7 +9,7 @@ import android.support.v4.content.ContextCompat;
 
 import com.baidu.tts.client.SpeechSynthesizer;
 import com.baidu.tts.client.TtsMode;
-import com.jerry.helper.control.InitConfig;
+import com.jerry.helper.view.voice.control.InitConfig;
 
 import org.json.JSONObject;
 

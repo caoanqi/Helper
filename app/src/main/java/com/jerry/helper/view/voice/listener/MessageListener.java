@@ -1,10 +1,10 @@
-package com.jerry.helper.listener;
+package com.jerry.helper.view.voice.listener;
 
 import android.util.Log;
 
 import com.baidu.tts.client.SpeechError;
 import com.baidu.tts.client.SpeechSynthesizerListener;
-import com.jerry.helper.MainHandlerConstant;
+import com.jerry.helper.view.voice.MainHandlerConstant;
 
 
 /**

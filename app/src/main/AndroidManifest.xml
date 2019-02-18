@@ -32,7 +32,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".voice.XunFeiPlayVoiceActivity"></activity>
+        <activity android:name=".view.voice.XunFeiPlayVoiceActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,9 +40,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".voice.AndroidSelfPlayVoiceActivity" />
-        <activity android:name=".voice.BaiDuPlayVoiceActivity" />
-        <activity android:name=".voice.SynthActivity" />
+        <activity android:name=".view.voice.AndroidSelfPlayVoiceActivity" />
+        <activity android:name=".view.voice.BaiDuPlayVoiceActivity" />
+        <activity android:name=".view.voice.SynthActivity" />
     </application>
 
 </manifest>
