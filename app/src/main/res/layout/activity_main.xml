@@ -10,36 +10,10 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
-
-
-
-        <Button
-            android:id="@+id/bt_android_self_play_voice"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="原生android 播放语音"
-            android:textSize="18sp" />
-
-        <Button
-            android:id="@+id/bt_baidu_play_voice"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="百度播放语音"
-            android:textSize="18sp" />
-
-        <Button
-            android:id="@+id/bt_xunfei_play_voice"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="科大播放语音"
-            android:textSize="18sp" />
-
-        <Button
-            android:id="@+id/bt_custom_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="自定义view"
-            android:textSize="18sp" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_activity_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
     </LinearLayout>
 </layout>

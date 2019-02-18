@@ -16,7 +16,13 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
-
+    dataBinding {
+        enabled true
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -34,7 +40,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
-
 
 // 定义两个链接，下面会用到。
 def siteUrl = 'https://github.com/caoanqi/Helper' // 项目主页。
