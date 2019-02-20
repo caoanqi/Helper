@@ -44,6 +44,7 @@
         <activity android:name=".view.voice.AndroidSelfPlayVoiceActivity" />
         <activity android:name=".view.voice.BaiDuPlayVoiceActivity" />
         <activity android:name=".view.voice.SynthActivity" />
+        <activity android:name=".util.PermissionUtils$PermissionActivity" />
     </application>
 
 </manifest>
