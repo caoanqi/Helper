@@ -35,4 +35,8 @@ public class LogbackUtil {
         return logger;
     }
 
+    public static Logger getStaticLogger() {
+        return LoggerFactory.getLogger("Helper");
+    }
+
 }

@@ -32,7 +32,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".view.CustomViewActivity"></activity>
+        <activity android:name=".view.custom_view.CircleViewActivity"></activity>
+        <activity android:name=".view.CustomViewActivity" />
         <activity android:name=".view.voice.XunFeiPlayVoiceActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
